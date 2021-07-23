@@ -1,0 +1,36 @@
+body{
+	background-image: url("img1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	animation-name: example;
+	animation-duration: 20s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+}
+@keyframes example{
+	0%{
+		background-image: url("img1.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	25%{
+		background-image: url("img2.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	50%{
+		background-image: url("img3.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	75%{
+		background-image: url("img4.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	100%{
+		background-image: url("img1.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
